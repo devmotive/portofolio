@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Achmad Syeful",
   title: "Mobile Developer",
   description: "Portfolio website of Achmad Syeful",
-  accentColor: "#1d4ed8",
+  accentColor: "#ef4444",
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
