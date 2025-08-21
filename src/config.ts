@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/devmotive",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Mobile Developer with 1.5+ years of experience delivering scalable cross-platform applications using Flutter. Skilled in app performance optimization, debugging, and Git-based collaboration. Experienced mentor with proven ability to support learners, strengthen communication, and contribute to team success",
   skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
