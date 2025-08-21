@@ -11,7 +11,16 @@ export const siteConfig = {
   },
   aboutMe:
     "Mobile Developer with 1.5+ years of experience delivering scalable cross-platform applications using Flutter. Skilled in app performance optimization, debugging, and Git-based collaboration. Experienced mentor with proven ability to support learners, strengthen communication, and contribute to team success",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  skills: [
+    "Flutter",
+    "State Management",
+    "Clean Architecture",
+    "Modularization",
+    "Firebase",
+    "API Integration",
+    "Offline-first Development",
+    "CI/CD (Codemagic, GitHub Actions)",
+  ],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
