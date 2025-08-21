@@ -59,6 +59,21 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                       )}
 
                       <div class="space-y-4">
+                        {project.images && project.images.length > 0 && (
+                          <div class="flex flex-wrap gap-4">
+                            {project.images.map((imgSrc, imgIdx) => (
+                              <div class="w-full max-w-[240px] aspect-[9/16] bg-gray-100 border border-gray-200 rounded-lg overflow-hidden">
+                                <img
+                                  src={imgSrc}
+                                  alt={`${project.name} screenshot ${imgIdx + 1}`}
+                                  class="w-full h-full object-contain"
+                                  loading="lazy"
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        
                         <div>
                           <span
                             class="text-sm font-mono"
